@@ -106,5 +106,17 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "possible_patient": "Maximale patiënten",
+  "possible_patient_min": "Minimale patiënten",
+  "duration_text": "Duur",
+  "guard_mission": "Geplande inzet",
+  "water_needed": "Benodigde hoeveelheid water",
+  "patient_at_end_of_mission": "Patiënt aan het einde van de inzet",
+  "mission_categories": "Generatie categorieën",
+  "oneof_fire_engine_or_rescue": "Tankautospuiten of hulpverleningsvoertuigen",
+  "possible_crashed_car_large_max": "Maximale vrachtwagens te verslepen",
+  "possible_crashed_car_large_min": "Minimale vrachtwagens te verslepen",
+  "tow_trucks_large": "Berger Groot"
+
 }

@@ -34,6 +34,14 @@ if os.path.exists(KEYS_PATH):
         if isinstance(keys_data, dict):
             existing_keys = set(keys_data.keys())
 
+# Load ignore_keys.json and add to existing_keys
+IGNORE_KEYS_PATH = "ignore_keys.json"
+if os.path.exists(IGNORE_KEYS_PATH):
+    with open(IGNORE_KEYS_PATH, "r", encoding="utf-8") as f:
+        ignore_list = json.load(f)
+        if isinstance(ignore_list, list):
+            existing_keys.update(ignore_list)
+
 # Find missing
 missing_keys = sorted(all_keys - existing_keys)
 
