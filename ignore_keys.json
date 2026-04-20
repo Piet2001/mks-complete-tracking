@@ -1,1 +1,6 @@
-[ "unavailable_in_normal_missions", "place", "patient_specialization_ids", "duration" ]
+[
+  "unavailable_in_normal_missions",
+  "place",
+  "patient_specialization_ids",
+  "duration"
+]
