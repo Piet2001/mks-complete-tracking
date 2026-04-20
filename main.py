@@ -8,6 +8,7 @@ import requests
 
 SAVE_PATH = "missions.json"
 KEYS_PATH = "keys.json"
+IGNORE_KEYS_PATH = "ignore_keys.json"
 WEBHOOK_URLS = [os.getenv("DISCORD"), os.getenv("DISCORD2")]
 url = "https://github.com/Piet2001/Inzetten/raw/refs/heads/main/complete.json"
 
@@ -35,6 +36,14 @@ if os.path.exists(KEYS_PATH):
     sort_keys_json(KEYS_PATH)
     with open(KEYS_PATH, "r", encoding="utf-8") as f:
         key_labels = json.load(f)
+
+# Load ignore keys
+ignore_keys = set()
+if os.path.exists(IGNORE_KEYS_PATH):
+    with open(IGNORE_KEYS_PATH, "r", encoding="utf-8") as f:
+        ignore_list = json.load(f)
+        if isinstance(ignore_list, list):
+            ignore_keys = set(ignore_list)
 
 def translate_key(key):
     label = key_labels.get(key)
@@ -135,6 +144,8 @@ else:
         all_keys = set(old) | set(new)
         field_changes = []
         for key in sorted(all_keys):
+            if key in ignore_keys:
+                continue
             old_val = old.get(key)
             new_val = new.get(key)
             if old_val != new_val:

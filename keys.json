@@ -99,5 +99,12 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "name": "Naam",
+  "chances": "Kansen",
+  "patient_transport": "Transportkans",
+  "prerequisites": "Gebouwen en uitbreidingen vereist",
+  "place_array": "POI lijst",
+  "expansion_missions_ids": "Mogelijke opschalingen",
+  "subsequent_missions_ids": "Mogelijke vervolginzetten"
 }

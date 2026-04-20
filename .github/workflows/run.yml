@@ -28,6 +28,7 @@ jobs:
       - name: Create local changes
         run: |
           python main.py
+          python find_missing_keys.py
         env:
           DISCORD: ${{ secrets.DISCORD  }}
           DISCORD2: ${{ secrets.DISCORD2 }}
