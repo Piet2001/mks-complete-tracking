@@ -58,7 +58,7 @@ def send_discord(title: str, description: str):
         "description": description,
     }
     webhookdata = {
-        "username": "MissionChecker V1",
+        "username": "Mission Change Tracking",
         "embeds": [
             embed
         ],
