@@ -2,5 +2,8 @@
   "unavailable_in_normal_missions",
   "place",
   "patient_specialization_ids",
-  "duration"
+  "duration",
+  "patient_specializations",
+  "base_mission_id",
+  "additive_overlays"
 ]

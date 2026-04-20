@@ -117,5 +117,10 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "main_building": "Hoofdgebouw",
+  "max_possible_prisoners": "Maximale arrestanten",
+  "min_possible_prisoners": "Minimale arrestanten",
+  "need_bike_police_only_if_present": "Biketeams alleen indien aanwezig",
+  "nef": "MMT-Arts"
 }
