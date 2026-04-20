@@ -59,7 +59,6 @@
   "possible_patient_min",
   "pump_water_amount",
   "subsequent_mission_only",
-  "subsequent_missions_ids",
   "tow_trucks_large",
   "unavailable_in_normal_missions",
   "uses_custom_spawn_area",
