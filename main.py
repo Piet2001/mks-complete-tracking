@@ -157,7 +157,7 @@ else:
                             else:
                                 sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}\n")
                     if sub_lines:
-                        field_changes.append(f"  {label}: \n" + ", ".join(sub_lines))
+                        field_changes.append(f"  {label}: " + ", \n".join(sub_lines))
                 else:
                     field_changes.append(f"  {label}: {old_val!r} -> {new_val!r}\n")
         if field_changes:
