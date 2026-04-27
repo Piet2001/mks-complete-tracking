@@ -5,5 +5,11 @@
   "duration",
   "patient_specializations",
   "base_mission_id",
-  "additive_overlays"
+  "additive_overlays",
+    "date_end",
+  "date_start",
+    "filter_id",
+    "generated_by",
+    "id",
+    "overlay_index",
 ]
