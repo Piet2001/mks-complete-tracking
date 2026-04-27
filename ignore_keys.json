@@ -1,15 +1,15 @@
 [
-  "unavailable_in_normal_missions",
-  "place",
-  "patient_specialization_ids",
-  "duration",
-  "patient_specializations",
-  "base_mission_id",
   "additive_overlays",
+  "base_mission_id",
   "date_end",
   "date_start",
+  "duration",
   "filter_id",
   "generated_by",
   "id",
-  "overlay_index"
+  "overlay_index",
+  "patient_specialization_ids",
+  "patient_specializations",
+  "place",
+  "unavailable_in_normal_missions"
 ]
