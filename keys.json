@@ -73,6 +73,7 @@
   "hazard_response_crew": "Gevaarlijke stoffen",
   "hazard_response_disinfection": "BOE",
   "hazard_response_disinfection_large": "GOE",
+  "hazard_response_fire": "Incidentbestrijding Gevaarlijke Stoffen",
   "hazard_response_material": "DB-GS",
   "hazard_response_suits": "Gaspakken",
   "hazmat_vehicles": "Adviseurs Gevaarlijke Stoffen",
@@ -80,6 +81,7 @@
   "hondengeleider": "Hondengeleiders",
   "icons": "Afbeeldingen",
   "industrial_response_engine": "Industriële schuimblussing",
+  "industrial_response_fire": "Industriële Brandbestrijding",
   "industrial_response_fire_engine": "Industriële tankautospuit",
   "lebefkw": "ME Commandovoertuigen",
   "main_building": "Hoofdgebouw",
@@ -158,7 +160,5 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
-  "industrial_response_fire": "Industriële Brandbestrijding",
-  "hazard_response_fire": "Incidentbestrijding Gevaarlijke Stoffen"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
 }
